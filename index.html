@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Pulkit Nagpal | Developer</title>
+    <style> 
+
+        body{
+            background-color: #fffffe;
+        }
+
+        p{
+            color: #5f6c7b;
+        }
+
+        h3{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 18px;
+            color: #5f6c7b;
+            font-weight: bold;
+        }
+
+        h2{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            color: #5f6c7b;
+            font-weight: bolder;
+        }
+
+        .intro{
+            font-size: 15px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: #094067;
+        }
+    
+        .me{
+            border-radius: 5%;
+        }
+    
+        .about{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            color: #5f6c7b;
+        }
+    
+        .about h3{
+            text-align: center;
+            color: #5f6c7b;
+        }
+    
+        .about ul{
+            list-style-type: none;
+            text-align: center;
+            color: #5f6c7b;
+        }
+    
+        .about p{
+            text-align: center;
+            color: #5f6c7b;
+        }
+    
+        .hobby{
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            color: #5f6c7b;
+        }
+    
+        .ed h3{
+            text-align: center;
+            color: #5f6c7b;
+        }
+    
+        .ed{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            color: #5f6c7b;
+        }
+    
+        .ed p{
+            text-align: center;
+            color: #5f6c7b;
+        }
+    
+        .me{
+            width:50%;
+        }
+        
+        .skill{
+            color: #5f6c7b;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .skill h3{
+            text-align: center;
+            color: #5f6c7b;
+        }
+        
+        .exp{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            color: #5f6c7b;
+        }
+
+        .exp ul{
+            list-style-type: none;
+            color: #5f6c7b;
+        }
+
+        .logo{
+            width: 2em;
+            height: 2em;
+        }
+
+        .py{
+            background-image: url(https://img.icons8.com/color/48/000000/python.png);
+            color: black;
+            height: 48px;
+            width: 48px;
+        }
+
+        .html{
+            background-image: url(https://img.icons8.com/color/48/000000/html-5.png);
+            height: 48px;
+            width: 48px;
+        }
+
+        .css{
+            background-image: url(https://img.icons8.com/color/48/000000/css3.png);
+            height: 48px;
+            width: 48px;
+        }
+
+        .js{
+            background-image: url(https://img.icons8.com/color/48/000000/javascript.png);
+            height: 48px;
+            width: 48px;
+        }
+
+        .ubuntu{
+            background-image: url(https://img.icons8.com/color/48/000000/linux.png);
+            height: 48px;
+            width: 48px;
+        }
+
+        .git{
+            background-image: url(https://img.icons8.com/color/48/000000/git.png);
+            height: 48px;
+            width: 48px;
+        }
+
+        .bstrap{
+            background-image: url(https://img.icons8.com/color/48/000000/bootstrap.png);
+            height: 48px;
+            width: 48px;
+        }
+
+        .vs{
+            background-image: url(https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png);
+            height: 48px;
+            width: 48px;
+        }
+
+        .window{
+            background-image: url(https://img.icons8.com/fluent/48/000000/windows-10.png);
+            height: 48px;
+            width: 48px;
+        }
+
+        .dj{
+            background-image: url(https://img.icons8.com/color/48/000000/django.png);
+            height: 48px;
+            width: 50px;
+        }
+
+        .php{
+            background-image: url(https://img.icons8.com/officel/40/000000/php-logo.png);
+            height: 48px;
+            width: 45px;
+        }
+
+        .sample button{
+            height: 110px;
+            width: 130px;
+            justify-content: center;
+            background-color: #3da9fc;
+            color: #fffffe;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .sample button:hover{
+            color:#3da9fc;
+            background-color:  #fffffe;
+            transition-delay: 0.08s;
+            box-shadow: black 1px 1px;
+        }
+
+        .more button{
+            justify-content: center;
+            background-color: #3da9fc;
+            color: #fffffe;
+            width: 170px;
+            height: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .more button:hover{
+            color:#3da9fc;
+            background-color:  #fffffe;
+            transition-delay: 0.08s;
+            box-shadow: black 1px 1px;
+        }
+
+        .social{
+            list-style-type: none;
+        }
+
+        .contact h3{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: #5f6c7b;
+        }
+
+        .setup h3{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: #5f6c7b;
+        }
+
+        .setup{
+            justify-content: center;
+        }
+
+        .setup button{
+            background-image: url(front.jpg);
+            width: 300px;
+            height: 254px;
+            border: none;
+            padding: 0;
+        }
+
+        .setup button:hover{
+            background-image: url(back.jpg);
+            width: 300px;
+            height: 254px;
+            transition-delay: 0.2s;
+        }
+
+    </style>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="box-shadow: 1px 1px black;">
+        <a class="navbar-brand" href=""><img class="logo" src="logo.jpg" alt=""></a></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#education">Education<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="intro mt-5">
+        <h2>Hey, I am Pulkit Nagpal</h2>
+        <h3>A Developer from India</h3>
+    <img class = "me" src="me.jpg" alt = "this is me"></a>
+    </div>
+    <hr>
+    
+    <section id="about">
+        <div class="about">
+        <h3>About Me</h3>
+        <p>Born in Amritsar on 16th Aug.,2000 I have been interested in the working of computers from my childhood. I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best, this passion led me to challenge myself daily and learn new skills that helped me to do better work. I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive towards. I’m not comfortable with settling, and I’m always looking for an opportunity to do better and achieve greatness.</p>
+        <h3>Hobbies</h3>
+            <ul class="hobby">
+                <li>Programming</li>
+                <li>Gaming</li>
+                <li>Sports</li>
+                <li>Music</li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+    <section id ="education">
+        <div class="ed"><h3>Education Qualifications</h3>
+        <p>I am currently pursuing a Bachelors in Technology in Computer Science and Engineering from Guru Nanak Dev University, Amritsar</p> </div>
+        <div class="edu table-responsive">
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Degree/Course</th>
+                    <th scope="col">Institute/School Name</th>
+                    <th scope="col">Year of Passing</th>
+                    <th scope="col">Result</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>B.tech in Computer Science and Engineering</td>
+                    <td>Guru Nanak Dev University, Amritsar, Punjab</td>
+                    <td>2019-23</td>
+                    <td>Currently Studying</td>
+                  </tr>
+                  <tr>
+                    <td>12th(CBSE)</td>
+                    <td>D.A.V Public School, Amritsar, Punjab</td>
+                    <td>2019</td>
+                    <td>67.8%</td>
+                  </tr>
+                  <tr>
+                    <td>10th (CBSE)</td>
+                    <td>2017</td>
+                    <td>D.A.V Public School, Amritsar, Punjab</td>
+                    <td>91.2%</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <hr>
+        <br><br>
+    </section>
+
+    <section id="work">
+        <div class="skill">
+            <h3>Tools that i use:</h3>
+                <center><div class="tool">
+                <a href="https://www.python.org/"><button class="py"></button></a>
+                <a href="https://www.djangoproject.com/"><button class="dj"></button></a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><button class="html"></button></a>
+                <a href="https://developer.mozilla.org/en-US/docs/Archive/CSS3"><button class="css"></button></a>
+                <a href="https://www.javascript.com/"><button class="js"></button></a>
+                <a href="https://www.linux.org/"><button class="ubuntu"></button></a>
+                <a href="https://git-scm.com/"><button class="git"></button></a>
+                <a href="https://getbootstrap.com/"><button class="bstrap"></button></a>
+                <a href="https://code.visualstudio.com/"><button class="vs"></button></a>
+                <a href="https://www.microsoft.com/en-in/windows"><button class="window"></button></a>
+                <a href="https://www.microsoft.com/en-in/windows"><button class="php"></button></a>
+                </div>
+                </center>
+        </div>
+        <br><br><br>
+        <div class="exp">
+            <h3>Professional Experience</h3>
+            <ul>
+                <li>Front End Developer for Campus Official <a href="http://www.gndurcjal.in/">Website</a> Manaagement Team(2019-20)</li>
+                <li>Junior Developer for <a href="https://iretaill.com/">iRetaill</a>(July,2020-Present)</li>
+            </ul>
+            <br><br>
+
+            <h3>My Projects</h3>
+            <div class="sample">
+            <a href="https://pulkitnagpal16.github.io/a-tribute-page/"><button>Tribute Page</button></a>
+            <a href="https://pulkitnagpal16.github.io/product-landing-page/"><button>Product Landing</button></a>
+            <a href="https://pulkitnagpal16.github.io/technical-documentation-page/"><button>Javascript Docs</button></a>
+            <a href="https://pulkitnagpal16.github.io/TO-DO-List/"><button>To-Do List</button></a>
+            <a href="https://github.com/pulkitnagpal16/TicTacToe"><button>TicTacToe</button></a>
+            <a href="https://github.com/pulkitnagpal16/CEO-QUIZ"><button>A Quiz Game</button></a>
+            </div>
+            <br><br><br><br>
+            <div class="more">
+            <a href="https://github.com/pulkitnagpal16?tab=repositories"><button>See More Here --></button></a>
+            <a href="https://docs.google.com/document/d/17Kg2miRv9EEqVI6ohYTvuun0gTFfX1yT2QBQINhgV8A/edit?usp=sharing"><button>Here's My Resume --></button></a>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section class="setup">
+        <div class="laptop">
+            <h3>This is my Laptop</h3>
+            <center><a href="https://www.amazon.in/HP-Pavilion-15-dk0045TX-15-6-inch-i5-9300H/dp/B07SKPVYX2"><button class="front"></button></a></center>
+        </div>
+        <hr><br>
+    </section>
+
+    <section class="contact">
+        <div class="contact">
+            <h3>Up for Coffee?<br>Let's Connect</h3>
+        </div>
+        
+        <h3>My Socials:</h3>
+            <!-- Footer -->
+<footer class="page-footer font-small black darken-3">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!-- Grid row-->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+  
+            <!-- Facebook -->
+            <a href = "https://www.facebook.com/pulkit.nagpal.773" class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+            </a>
+            <!-- Twitter-->
+            <a href = "https://twitter.com/PulkitN82020897" class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Google-->
+            <a href="mailto:pulkitnagpal16@gmail.com">
+                <i class="fas fa-envelope fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+            </a>
+            <!--Linkedin -->
+            <a href = "https://www.linkedin.com/in/pulkit-nagpal-75215a190/" class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a href = "https://www.instagram.com/pulkit__nagpal/?hl=en" class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+
+          </div>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row-->
+  
+    </div>
+    <!-- Footer Elements -->
+</footer>
+    </section>    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+</html>
+
+
